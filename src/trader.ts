@@ -180,15 +180,17 @@ export default class Trader extends Base {
         deadline: string
     ){}
     /** 
-        * @param amountOut  
+        * @param amountInMax 
+        * @param amountOut 
         * @param path
         * @param to 
         * @param deadline 
         * @returns
     */
     public async swapETHtoExactTokens(
+        amountInMax: string,
         amountOut: string,
-        path: string[],,
+        path: string[],
         to: string,
         deadline: string
     ){}
